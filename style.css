@@ -7,23 +7,28 @@ ul {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-  }
+}
   
-  li {
+li {
     float: left;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  li a:hover:not(.active){
-    background-color: green;
-  }
-  .active {
+li a:hover:not(.active){
+    background-color: aqua;
+}
+
+.active {
     background-color: aquamarine;
-  }
+}
+
+body{
+  background-color: antiquewhite;
+}
